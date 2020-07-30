@@ -46,10 +46,10 @@
                     <p style="font-weight:bolder">{{ __('Maps') }}</p>
                 </a>
             </li>
-            <li @if ($pageSlug ?? '' == 'already taken material') class="active " @endif>
-                <a href="{{ route('pages.notifications') }}">
+            <li @if ($pageSlug ?? '' == 'Reports') class="active " @endif>
+                <a href="{{ route('pages.reports') }}">
                     <i class="tim-icons icon-bell-55"></i>
-                    <p style="font-weight:bolder">{{ __('Notifications') }}</p>
+                    <p style="font-weight:bolder">{{ __('Reports') }}</p>
                 </a>
             </li>
             <li @if ($pageSlug ?? '' == 'all materials') class="active " @endif>

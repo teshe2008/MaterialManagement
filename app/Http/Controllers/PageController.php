@@ -39,9 +39,9 @@ class PageController extends Controller
      *
      * @return \Illuminate\View\View
      */
-    public function notifications()
+    public function reports()
     {
-        return view('pages.notifications');
+        return view('pages.reports');
     }
 
     /**
